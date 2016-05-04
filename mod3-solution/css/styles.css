@@ -1,0 +1,76 @@
+#header-nav {
+  background-color: grey;
+}
+div #collapsable-nav {
+  padding: 0;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-brand h1 { /* Company name */
+  font-size: 1.3em;
+  margin: 0;
+}
+.navbar-brand a {
+  color: black;
+}
+.navbar-default {
+  border-color: black;
+}
+.navbar-default .navbar-collapse {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+  background-color: black;
+}
+
+
+
+#nav-list {
+  margin: 0;
+  border-color: black;
+}
+
+#nav-list li {
+  background-color: pink;
+}
+#nav-list a {
+  color: black;
+}
+
+#nav-list li a {
+  border-bottom: 0.5px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#main-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+#main-content div {
+  background-color: grey;
+  margin-bottom: 15px;
+}
+
+#main-content span {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+#chicken, #beef {
+  padding: 25px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
